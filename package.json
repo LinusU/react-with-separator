@@ -1,0 +1,15 @@
+{
+  "name": "react-with-separator",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/react-with-separator",
+  "scripts": {
+    "test": "standard"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
