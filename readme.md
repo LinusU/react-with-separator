@@ -30,7 +30,7 @@ const Footer = ({ username }) => (
   </WithSeparator>
 )
 
-render(<Footer username='linusu' \>)
+render(<Footer username='linusu' />)
 ```
 
 Will render something like this:
