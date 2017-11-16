@@ -1,6 +1,6 @@
 'use strict'
 
-const React = require('react')
+var React = require('react')
 
 function createSeparator (separator, idx) {
   if (typeof separator === 'string') {
@@ -11,9 +11,9 @@ function createSeparator (separator, idx) {
 }
 
 module.exports = function WithSeparator (props) {
-  const children = React.Children.toArray(props.children)
+  var children = React.Children.toArray(props.children)
 
-  for (let i = 1; i < children.length; i += 2) {
+  for (var i = 1; i < children.length; i += 2) {
     children.splice(i, 0, createSeparator(props.separator, (i - 1) / 2))
   }
 
