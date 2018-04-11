@@ -7,7 +7,7 @@ function createSeparator (separator, idx) {
     return separator
   }
 
-  return React.cloneElement(separator, { key: `separator-${idx}` })
+  return React.cloneElement(separator, { key: 'separator-' + idx })
 }
 
 module.exports = function WithSeparator (props) {
