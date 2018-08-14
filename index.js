@@ -17,5 +17,13 @@ module.exports = function WithSeparator (props) {
     children.splice(i, 0, createSeparator(props.separator, (i - 1) / 2))
   }
 
+  if (props.leading) {
+    children.unshift(createSeparator(props.separator, 'leading'))
+  }
+
+  if (props.trailing) {
+    children.push(createSeparator(props.separator, 'trailing'))
+  }
+
   return children
 }

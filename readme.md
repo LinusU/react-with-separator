@@ -44,3 +44,11 @@ Will render something like this:
 ### `separator`
 
 The element or string to insert between each child element.
+
+### `leading`
+
+Whether to insert a leading separator or not.
+
+### `trailing`
+
+Whether to insert a trailing separator or not.
