@@ -43,12 +43,21 @@ Will render something like this:
 
 ### `separator`
 
+- required
+- type: `ReactElement` or `string`
+
 The element or string to insert between each child element.
 
 ### `leading`
 
+- optional
+- type: `boolean`
+
 Whether to insert a leading separator or not.
 
 ### `trailing`
+
+- optional
+- type: `boolean`
 
 Whether to insert a trailing separator or not.
