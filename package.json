@@ -4,12 +4,13 @@
   "license": "MIT",
   "repository": "LinusU/react-with-separator",
   "scripts": {
-    "test": "standard"
+    "test": "standard && ts-readme-generator --check"
   },
   "peerDependencies": {
     "react": ">=16"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "ts-readme-generator": "^0.4.1"
   }
 }
