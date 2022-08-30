@@ -44,7 +44,7 @@ Will render something like this:
 ### `separator`
 
 - required
-- type: `ReactElement` or `string`
+- type: `ReactElement | string`
 
 The element or string to insert between each child element.
 
@@ -61,3 +61,10 @@ Whether to insert a leading separator or not.
 - type: `boolean`
 
 Whether to insert a trailing separator or not.
+
+### `children`
+
+- optional
+- type: `React.ReactNode`
+
+The children to insert separators between

@@ -7,6 +7,8 @@ declare interface Props {
   leading?: boolean
   /** Whether to insert a trailing separator or not. */
   trailing?: boolean
+  /** The children to insert separators between */
+  children?: React.ReactNode
 }
 
 declare const WithSeparator: FC<Props>

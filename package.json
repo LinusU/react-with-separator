@@ -10,7 +10,7 @@
     "react": ">=16"
   },
   "devDependencies": {
-    "standard": "^10.0.3",
-    "ts-readme-generator": "^0.4.1"
+    "standard": "^15.0.0",
+    "ts-readme-generator": "^0.7.2"
   }
 }
